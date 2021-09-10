@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElKhattabiNaima_Prova7.Core\ElKhattabiNaima_Prova7.Core.csproj" />
+    <ProjectReference Include="..\ElKhattabiNaima_Prova7.RepositoryEF\ElKhattabiNaima_Prova7.RepositoryEF.csproj" />
+    <ProjectReference Include="..\ElKhattabiNaima_Prova7.RepositoryMock\ElKhattabiNaima_Prova7.RepositoryMock.csproj" />
+  </ItemGroup>
+
+</Project>
